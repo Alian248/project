@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #2A2A2A;
+}
+.clearfix::after {
+    content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+section {
+    width: 455px;
+    height: 377px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+}
+header .circinal {
+    width: 30px;
+    height: 30px;
+    margin: 10px 0 0 24px;
+    background-color: #94c890;
+    border-radius: 50%;
+    display: inline-block;
+}
+header i.icon-wenzhang1 {
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 7px;
+    vertical-align: middle;
+    color: white;
+}
+header span {
+    font-size: 18px;
+    vertical-align: middle;
+    color: #94c890;
+}
+article {
+    width: 100%;
+    margin: 20px auto 0;
+}
+article .box {
+    margin: 26px;
+}
+article .box .box-left,
+article .box .box-right {
+    width: 45%;
+    height: 78px;
+}
+article .box .box-left {
+    float: left;
+}
+article .box .box-right {
+    float: right;
+}
+article .box .box-left .left,
+article .box .box-right .left {
+    width: 30px;
+    height: 35px;
+    float: left;
+}
+article .box .box-left .left i.icon-ren1,
+i.icon-quanzi-xuanzhong,
+i.icon-bijiben,
+article .box .box-right .left i.icon-lianxirenqunzu,
+i.icon-xin,
+i.icon-fl-xiaoshoudan {
+    display: block;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 24px;
+    color: #94c890;
+    border-right: 1px solid #F2F3F2;
+}
+article .box .box-left .right,
+article .box .box-right .right {
+    width: 112px;
+    height: 65px;
+    float: left;
+    margin: 0 10px;
+}
+article .box .box-left .right p:nth-child(1),
+article .box .box-right .right p:nth-child(1) {
+    font-size: 38px;
+    color: #87909D;
+}
+article .box .box-left .right p span,
+article .box .box-right .right p span {
+    font-size: 14px;
+    color: #87909D;
+}
+article .box .box-left .right p:nth-child(2),
+article .box .box-right .right p:nth-child(2) {
+    font-size: 14px;
+    color: #686868;
+}
